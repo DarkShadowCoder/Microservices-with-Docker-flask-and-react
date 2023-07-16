@@ -29,6 +29,7 @@
 </div>
 <div style = "border-top = 2px solid red" id = "h2">
   <h2 font-color = "red">Architecture du site</h2>
+	Le site web fonctionne suivant une architecture de microservices. C'est-à-dire que toutes les fonctionalités du systeme sont divisées en de petits microservices possedant chacun une base de données , ses langages de programmations précis et retournant une reponse sous le format JSON qui sera integré à l'interface utilisateur.
 	<p></p>
 </div>
 <div style = "border-top = 2px solid red" id="h3">
