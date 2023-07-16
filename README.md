@@ -31,6 +31,7 @@
   <h2 font-color = "red">Architecture du site</h2>
 	<p>Le site web fonctionne suivant une architecture de microservices. C'est-à-dire que toutes les fonctionalités du systeme sont divisées en de petits microservices possedant chacun une base de données , ses langages de programmations précis, empaquetés dans des containeurs Docker et retournant une reponse sous format JSON qui sera integré à l'interface utilisateur.<br>
 	Comme services , c'est un site web qui permet d'inscrire et/ou de connecter les utilisateurs aux fonctionnalité d'un système en passant par les tests d'interface, d'authentification , des integrations contitnues et la sauvegarde des information utilisateurs dans une base de données. A chaque fonctionnalités il existe un service specilaisé. Chaque service est empaqueter sous Docker puis deployé avec <strong>Amazon EC2<strong>.
+		<img alt = "Image de l'architecture" src = "./docs/Architecture.png" />
 	</p>
 	
 </div>
