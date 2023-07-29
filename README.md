@@ -21,7 +21,7 @@
   	<li><a href = "">Crédit </a></li>  
 </ol>
 <div style = "border-top = 2px solid red" id = "h1">
-  <h2 font-color = "red">Concept de microservice</h2>
+  <h2 font-color = "red">Concept d'architecture microservice</h2>
 	<p>L'architecture Microservices propose une solution en principe simple : découper une application en petits services, appelés Microservices, parfaitement autonomes, qui exposent une API REST que les autres microservices pourront consommer. <br>
 	<img alt = "Image de microservice" src = "https://user.oc-static.com/upload/2021/12/15/16395870123069_FR_4668056_Banner%26Statics_p1c2-1.jpg"/><br>
 		Chaque microservice est parfaitement autonome : il a sa propre base de données, son propre serveur d'application (Tomcat, Jetty, etc.), ses propres librairies et ainsi de suite. La plupart du temps, ces microservices sont chacun dans un container Docker, ils sont donc totalement indépendants y compris vis-à-vis de la machine sur laquelle ils tournent.
