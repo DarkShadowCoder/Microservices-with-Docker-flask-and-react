@@ -45,8 +45,8 @@
 </div>
 <div style = "border-top = 2px solid red" id = "h5">
   <h2 font-color = "red">Installation et utilisation du projet</h2>
-	- <h3>A partir de Docker</h3>
-	- <h3>Grace à l'environnement virtuel</h3>
+	<li><h3>A partir de Docker</h3></li> 
+	<li><h3>Grace à l'environnement virtuel</h3></li> 
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
   <h2 font-color = "red">Credits</h2>
