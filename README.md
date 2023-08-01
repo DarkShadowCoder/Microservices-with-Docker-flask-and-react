@@ -1,6 +1,6 @@
 # Microservices-with-Docker-flask-and-react
 
-<p>Projet de creation d'un site web avec flask et React integrant la gestion des utilisateurs , les operations CRUD sur base de données et empaqueter dans des conteneurs Docker pour une meilleure autonomie tout ceci modelisé suivant une architecture microservice.</p>
+<p>Projet de creation d'un site web de gestion d'interactions utilisateurs (login , register , authentification , authorization , test unitaires , developpement et Integration continu , ...) et les operations CRUD sur base de données avec React et flask , tout ceci empaqueter dans des conteneurs Docker pour une meilleure autonomie et modelisé suivant une architecture microservice.</p>
 <p>
 	<img alt="Static Badge" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
 	<img alt="Static Badge" src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white">
