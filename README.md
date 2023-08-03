@@ -1,6 +1,6 @@
 # Microservices-with-Docker-flask-and-react
 
-<p>Projet de creation d'un site web avec flask et React integrant la gestion des utilisateurs , les operations CRUD sur base de données et empaqueter dans des conteneurs Docker pour une meilleure autonomie tout ceci modelisé suivant une architecture microservice.</p>
+<p>Projet de creation d'un site web de gestion d'interactions utilisateurs (login , register , authentification , authorization , test unitaires , developpement et Integration continu , ...) et les operations CRUD sur base de données avec React et flask , tout ceci empaqueter dans des conteneurs Docker pour une meilleure autonomie et modelisé suivant une architecture microservice.</p>
 <p>
 	<img alt="Static Badge" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
 	<img alt="Static Badge" src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white">
@@ -29,8 +29,8 @@
 </div>
 <div style = "border-top = 2px solid red" id = "h2">
   <h2 font-color = "red">Architecture du site</h2>
-	<p>Le site web fonctionne suivant une architecture de microservices. C'est-à-dire que toutes les fonctionalités du systeme sont divisées en de petits microservices possedant chacun une base de données , ses langages de programmations précis, empaquetés dans des containeurs Docker et retournant une reponse sous format JSON qui sera integré à l'interface utilisateur.<br>
-	Comme services , c'est un site web qui permet d'inscrire et/ou de connecter les utilisateurs aux fonctionnalité d'un système en passant par les tests d'interface, d'authentification , des integrations contitnues et la sauvegarde des information utilisateurs dans une base de données. A chaque fonctionnalités il existe un service specilaisé. Chaque service est empaqueter sous Docker puis deployé avec <strong>Amazon EC2<strong>.<br>
+	<p>Le site web fonctionne suivant une architecture de microservices. C'est-à-dire que toutes les fonctionalités du systeme sont divisées en de petits microservices possedant chacun sa base de données , ses langages de programmations spécifiques, empaquetés dans des containeurs Docker et retournant une reponse sous format JSON qui sera integré à l'interface utilisateur.<br>
+	Comme services , c'est un site web qui permet d'inscrire et/ou de connecter les utilisateurs aux fonctionnalité d'un système en passant par les tests d'interface, d'authentification , des integrations contitnues et la sauvegarde des information utilisateurs dans une base de données. A chaque fonctionnalités il existe un service specialisé. Chaque service est empaqueter sous Docker puis deployé avec <strong>Amazon EC2<strong>.<br>
 		<img alt = "Image de l'architecture" src = "./docs/Architecture.jpeg" />
 	</p>
 	
@@ -45,7 +45,8 @@
 </div>
 <div style = "border-top = 2px solid red" id = "h5">
   <h2 font-color = "red">Installation et utilisation du projet</h2>
-	<p></p>
+	<h3><li>A partir de Docker</li> </h3>
+	<h3><li>Grace à l'environnement virtuel</li></h3> 
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
   <h2 font-color = "red">Credits</h2>
