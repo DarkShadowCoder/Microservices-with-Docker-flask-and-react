@@ -45,11 +45,19 @@
 </div>
 <div style = "border-top = 2px solid red" id = "h5">
   <h2 font-color = "red">Installation et utilisation du projet</h2>
-	<h3><ul><li>A partir de Docker</li> </ul> </h3>
+	<h3><ol><li>A partir de Docker</li> </ol> </h3>
 	<p>Docker. Docker est un logiciel qui permet de créer et de gérer des conteneurs, qui sont des environnements isolés pour exécuter des applications. Pour installer Docker, vous devez suivre les étapes suivantes, selon votre système d’exploitation:</p><br>
 <li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
 <li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
-	<h3><li>Grace à l'environnement virtuel</li></h3> 
+	
+	<p>sudo apt update <br>
+sudo apt install apt-transport-https ca-certificates curl software-properties-common<br>
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -<br>
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"<br>
+sudo apt update<br>
+sudo apt install docker-ce<br>
+</p>
+	<h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3> 
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
   <h2 font-color = "red">Credits</h2>
