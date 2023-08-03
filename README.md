@@ -67,7 +67,7 @@
  <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3>
  <li>Telecharger le projets dans votre machine grace à la commande git:
  	
-	 git clone --
+	 git clone https://github.com/DarkShadowCoder/Microservices-with-Docker-flask-and-react.git
   	 cd Microservices-with-Docker-flask-and-react
  </li>
  <li>Ensuite activer l'environnemnt virtuel grace à la commande:
