@@ -77,7 +77,10 @@
 	
   	pip install -r requirements.txt
  </li>
- <li></li>
+ <li>Executer le code avec:
+
+ 	npm start
+ </li>
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
   <h2 font-color = "red">Credits</h2>
