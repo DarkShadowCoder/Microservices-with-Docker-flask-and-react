@@ -50,13 +50,12 @@
 <li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
 <li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
 	
-	<p>sudo apt update <br>
- 	sudo apt install apt-transport-https ca-certificates curl software-properties-common<br>
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -<br>
-	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"<br>
-	sudo apt update<br>
-	sudo apt install docker-ce<br>
-	</p>
+	<p>sudo apt update
+ 	sudo apt install apt-transport-https ca-certificates curl software-properties-common
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+	sudo apt update
+	sudo apt install docker-ce
 	
  <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3> 
 </div>
