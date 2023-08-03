@@ -64,7 +64,20 @@
   	docker run -it test-driven-app
  </p>
 
- <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3> 
+ <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3>
+ <li>Telecharger le projets dans votre machine grace à la commande git:
+ 	
+	 git clone --
+ </li>
+ <li>Ensuite activer l'environnemnt virtuel grace à la commande:
+ 	
+	 source ./env/bin/activate
+ </li>
+ <li>Installer toutes les librairies requise pour executer l'application grace à:
+	
+  	pip install -r requirements.txt
+ </li>
+ <li></li>
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
   <h2 font-color = "red">Credits</h2>
