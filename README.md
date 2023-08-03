@@ -56,7 +56,14 @@
 	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 	sudo apt update
 	sudo apt install docker-ce
-	
+ <p>Pour consulter le site web , telecharger l'image docker du projet qui sont des fichiers contenant les divers services de l'applications.Dans l'invite de commande, éxecuter la commande suivante:
+ 	
+	 docker pull test-driven-app
+  <br> Pour executer le conteneur, inserer la commande:
+
+  	docker run -it test-driven-app
+ </p>
+
  <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3> 
 </div>
 <div style = "border-top = 2px solid red" id ="h6">
