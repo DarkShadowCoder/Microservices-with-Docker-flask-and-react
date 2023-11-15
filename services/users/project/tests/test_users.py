@@ -40,7 +40,7 @@ class TestUserService(BaseTestCase):
             self.assertIn('eivoslandry@gmail.com swas added!' , data['message'])
             self.assertIn('success' , data['status'])
     
-    def tes_add_user_invalid_json(self):
+    def test_add_user_invalid_json(self):
         """ Ensure error is thrown if the JSON is empty"""
         with self.client:
             response = self.client.post(
@@ -92,7 +92,7 @@ class TestUserService(BaseTestCase):
             )
             self.assertIn('fail' , data['status'])
     
-    def tes_single_user(self):
+    def test_single_user(self):
         """ Ensure get single user behaves correctly."""
         user = User(username='blackdot', email='eivoslandry@gmail.com')
         with self.client:
