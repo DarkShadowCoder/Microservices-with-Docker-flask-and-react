@@ -2,8 +2,9 @@ from flask.cli import FlaskGroup
 import unittest
 
 from project import create_app , db
+from project.api.models import User
 
-app = create_app()
+#app = create_app()
 cli = FlaskGroup(create_app=create_app)
 
 @cli.commands()
